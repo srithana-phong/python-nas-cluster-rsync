@@ -1,0 +1,35 @@
+# config.yml
+db_server: "192.168.254.181"
+username: "bestkung"
+password: "sd102030"
+port_db: 3306
+db_name: "file_log"
+node: "node_master"
+date_format: "%d.%m.%Y-%H:%M:%S"
+discord_webhook_url: "https://discord.com/api/webhooks/1263462605775831141/3TDs9MFFh9iIhfK-kmbFDakY6h3ZTT2qBQMwWIRiqIqpw71zwC81NjHjlAMA5L5pJ0CV"
+line_access_token: "t6HdSVHAMIDqb5bmJp19gipOeXB5qxhvfZ0h5dep3eA"
+
+#rsync
+table_name_rsync: "rsync_log_node_master"
+directory_path_rsync: "/data_node_master/"
+#ปลายทาง
+file_path_backup_rsync: "/tmp"
+
+#scan
+table_name_scan: "scanfile_node_master"
+path_scan: "/data_node_master/"
+
+#zfs_snaphot
+table_name_zfs_snaphot: "status_snapshot"
+#name zpool 
+zpool_name_zfs_snaphot: "data_node_master"
+
+#zip_file
+table_name_zip_file: "status_zipfile"
+path_dir_file_zip_file: "/data_node_master"
+#backup
+path_zip_file: "/tmp"
+
+#check_detail_disk
+table_name_check_detail_disk: "disk_info"
+mountpoint_to_check_detail_disk: "/data_node_master"
