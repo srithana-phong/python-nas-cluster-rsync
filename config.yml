@@ -6,8 +6,8 @@ port_db: 3306
 db_name: "file_log"
 node: "node_3"
 date_format: "%d.%m.%Y-%H:%M:%S"
-discord_webhook_url: "https://discord.com/api/webhooks/1263462605775831141/3TDs9MFFh9iIhfK-kmbFDakY6h3ZTT2qBQMwWIRiqIqpw71zwC81NjHjlAMA5L5pJ0CV"
-line_access_token: "t6HdSVHAMIDqb5bmJp19gipOeXB5qxhvfZ0h5dep3eA"
+discord_webhook_url: "https://discord.com/api/"
+line_access_token: ""
 
 #rsync
 table_name_rsync: "rsync_log_node_3"
